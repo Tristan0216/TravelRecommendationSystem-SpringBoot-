@@ -1,0 +1,92 @@
+2025-02-10 16:45:07.333 [restartedMain] INFO  com.shanzhu.tourism.BackendApplication - Starting BackendApplication using Java 1.8.0_221 on LAPTOP-CGGM9C1V with PID 416 (D:\BaiduNetdiskDownload\006-旅游推荐系统-新版\006-旅游推荐管理系统\tourism-backend\target\classes started by 20754 in D:\BaiduNetdiskDownload\006-旅游推荐系统-新版\006-旅游推荐管理系统\tourism-backend)
+2025-02-10 16:45:07.343 [restartedMain] INFO  com.shanzhu.tourism.BackendApplication - The following profiles are active: dev
+2025-02-10 16:45:07.447 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-10 16:45:07.448 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-10 16:45:08.509 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-02-10 16:45:08.513 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-02-10 16:45:08.606 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69 ms. Found 0 Redis repository interfaces.
+2025-02-10 16:45:09.629 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-02-10 16:45:09.644 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-10 16:45:09.645 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-10 16:45:09.645 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-02-10 16:45:09.821 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-10 16:45:09.821 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2371 ms
+2025-02-10 16:45:10.414 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-02-10 16:45:12.332 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-02-10 16:45:14.963 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2025-02-10 16:45:15.290 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-02-10 16:45:15.334 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-10 16:45:15.368 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-02-10 16:45:15.377 [restartedMain] INFO  com.shanzhu.tourism.BackendApplication - Started BackendApplication in 8.92 seconds (JVM running for 11.708)
+2025-02-10 16:45:15.380 [restartedMain] INFO  com.shanzhu.tourism.BackendApplication - =====================项目后端启动成功============================
+2025-02-10 16:47:09.561 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-10 16:47:09.561 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-10 16:47:09.563 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-02-10 19:29:41.897 [http-nio-8080-exec-55] INFO  com.shanzhu.tourism.handle.MyMetaObjectHandler - 公共字段自动填充[update]...
+2025-02-10 19:29:41.930 [http-nio-8080-exec-55] INFO  com.shanzhu.tourism.handle.MyMetaObjectHandler - 公共字段自动填充[insert]...
+2025-02-10 19:40:43.649 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-02-10 19:40:43.651 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-02-10 19:40:43.658 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-02-10 19:42:50.527 [restartedMain] INFO  com.shanzhu.tourism.BackendApplication - Starting BackendApplication using Java 1.8.0_221 on LAPTOP-CGGM9C1V with PID 27960 (D:\BaiduNetdiskDownload\006-旅游推荐系统-新版\006-旅游推荐管理系统\tourism-backend\target\classes started by 20754 in D:\BaiduNetdiskDownload\006-旅游推荐系统-新版\006-旅游推荐管理系统\tourism-backend)
+2025-02-10 19:42:50.532 [restartedMain] INFO  com.shanzhu.tourism.BackendApplication - The following profiles are active: dev
+2025-02-10 19:42:50.622 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-10 19:42:50.623 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-10 19:42:51.826 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-02-10 19:42:51.830 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-02-10 19:42:51.910 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 63 ms. Found 0 Redis repository interfaces.
+2025-02-10 19:42:52.940 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-02-10 19:42:52.955 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-10 19:42:52.956 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-10 19:42:52.956 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-02-10 19:42:53.155 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-10 19:42:53.156 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2532 ms
+2025-02-10 19:42:53.916 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-02-10 19:42:56.548 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-02-10 19:43:01.472 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2025-02-10 19:43:02.051 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-02-10 19:43:02.106 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-10 19:43:02.161 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-02-10 19:43:02.177 [restartedMain] INFO  com.shanzhu.tourism.BackendApplication - Started BackendApplication in 12.638 seconds (JVM running for 15.895)
+2025-02-10 19:43:02.182 [restartedMain] INFO  com.shanzhu.tourism.BackendApplication - =====================项目后端启动成功============================
+2025-02-10 19:43:09.702 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-10 19:43:09.702 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-10 19:43:09.708 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2025-02-10 19:57:12.746 [http-nio-8080-exec-1] INFO  com.shanzhu.tourism.handle.MyMetaObjectHandler - 公共字段自动填充[insert]...
+2025-02-10 19:57:40.062 [http-nio-8080-exec-20] INFO  com.shanzhu.tourism.handle.MyMetaObjectHandler - 公共字段自动填充[insert]...
+2025-02-10 19:59:45.532 [http-nio-8080-exec-16] INFO  com.shanzhu.tourism.handle.MyMetaObjectHandler - 公共字段自动填充[insert]...
+2025-02-10 20:00:03.301 [http-nio-8080-exec-18] INFO  com.shanzhu.tourism.handle.MyMetaObjectHandler - 公共字段自动填充[update]...
+2025-02-10 20:00:03.309 [http-nio-8080-exec-18] INFO  com.shanzhu.tourism.handle.MyMetaObjectHandler - 公共字段自动填充[insert]...
+2025-02-10 20:00:32.287 [http-nio-8080-exec-39] INFO  com.shanzhu.tourism.handle.MyMetaObjectHandler - 公共字段自动填充[insert]...
+2025-02-10 20:01:09.681 [http-nio-8080-exec-65] INFO  com.shanzhu.tourism.handle.MyMetaObjectHandler - 公共字段自动填充[update]...
+2025-02-10 20:01:15.457 [http-nio-8080-exec-69] INFO  com.shanzhu.tourism.handle.MyMetaObjectHandler - 公共字段自动填充[update]...
+2025-02-10 20:01:20.087 [http-nio-8080-exec-73] INFO  com.shanzhu.tourism.handle.MyMetaObjectHandler - 公共字段自动填充[update]...
+2025-02-10 20:12:08.915 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-02-10 20:12:08.917 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-02-10 20:12:08.924 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-02-10 21:55:30.491 [restartedMain] INFO  com.shanzhu.tourism.BackendApplication - Starting BackendApplication using Java 1.8.0_221 on LAPTOP-CGGM9C1V with PID 26336 (D:\BaiduNetdiskDownload\006-旅游推荐系统-新版\006-旅游推荐管理系统\tourism-backend\target\classes started by 20754 in D:\BaiduNetdiskDownload\006-旅游推荐系统-新版\006-旅游推荐管理系统\tourism-backend)
+2025-02-10 21:55:30.497 [restartedMain] INFO  com.shanzhu.tourism.BackendApplication - The following profiles are active: dev
+2025-02-10 21:55:30.714 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-10 21:55:30.714 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-10 21:55:32.878 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-02-10 21:55:32.884 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-02-10 21:55:33.022 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 106 ms. Found 0 Redis repository interfaces.
+2025-02-10 21:55:34.620 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-02-10 21:55:34.644 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-10 21:55:34.646 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-10 21:55:34.646 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-02-10 21:55:34.995 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-10 21:55:34.996 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4279 ms
+2025-02-10 21:55:36.363 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-02-10 21:55:39.422 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-02-10 21:55:42.635 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2025-02-10 21:55:43.037 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-02-10 21:55:43.084 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-10 21:55:43.133 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-02-10 21:55:43.150 [restartedMain] INFO  com.shanzhu.tourism.BackendApplication - Started BackendApplication in 14.25 seconds (JVM running for 18.842)
+2025-02-10 21:55:43.156 [restartedMain] INFO  com.shanzhu.tourism.BackendApplication - =====================项目后端启动成功============================
+2025-02-10 21:56:02.676 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-10 21:56:02.677 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-10 21:56:02.678 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-02-10 22:00:08.376 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-02-10 22:00:08.378 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-02-10 22:00:08.384 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

@@ -1,0 +1,130 @@
+2024-12-07 12:39:03.469 [restartedMain] INFO  com.shanzhu.tourism.BackendApplication - Starting BackendApplication using Java 1.8.0_221 on LAPTOP-CGGM9C1V with PID 8288 (D:\BaiduNetdiskDownload\006-旅游推荐系统-新版\006-旅游推荐管理系统\tourism-backend\target\classes started by 20754 in D:\BaiduNetdiskDownload\006-旅游推荐系统-新版\006-旅游推荐管理系统\tourism-backend)
+2024-12-07 12:39:03.475 [restartedMain] INFO  com.shanzhu.tourism.BackendApplication - The following profiles are active: dev
+2024-12-07 12:39:03.543 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-07 12:39:03.543 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-07 12:39:04.482 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-12-07 12:39:04.484 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-12-07 12:39:04.553 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52 ms. Found 0 Redis repository interfaces.
+2024-12-07 12:39:05.312 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-12-07 12:39:05.325 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-07 12:39:05.326 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-07 12:39:05.326 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-12-07 12:39:05.476 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-07 12:39:05.476 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1932 ms
+2024-12-07 12:39:05.951 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-12-07 12:39:07.113 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-12-07 12:39:08.809 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-12-07 12:39:09.104 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-07 12:39:09.136 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-07 12:39:09.165 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-07 12:39:09.176 [restartedMain] INFO  com.shanzhu.tourism.BackendApplication - Started BackendApplication in 6.397 seconds (JVM running for 8.025)
+2024-12-07 12:39:09.179 [restartedMain] INFO  com.shanzhu.tourism.BackendApplication - =====================项目后端启动成功============================
+2024-12-07 12:42:28.079 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-07 12:42:28.079 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-07 12:42:28.081 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-07 12:43:07.802 [http-nio-8080-exec-51] INFO  com.shanzhu.tourism.handle.MyMetaObjectHandler - 公共字段自动填充[update]...
+2024-12-07 12:43:07.836 [http-nio-8080-exec-51] INFO  com.shanzhu.tourism.handle.MyMetaObjectHandler - 公共字段自动填充[insert]...
+2024-12-07 12:53:34.636 [lettuce-nioEventLoop-4-1] INFO  io.lettuce.core.protocol.CommandHandler - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1134)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2024-12-07 12:53:34.703 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /127.0.0.1:6379
+2024-12-07 12:53:40.998 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 12:53:47.301 [lettuce-eventExecutorLoop-1-9] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 12:53:54.398 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 12:54:01.598 [lettuce-eventExecutorLoop-1-8] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 12:54:07.799 [lettuce-eventExecutorLoop-1-12] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 12:54:18.106 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 12:54:36.599 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 12:55:08.705 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 12:55:40.798 [lettuce-eventExecutorLoop-1-9] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 12:56:12.899 [lettuce-eventExecutorLoop-1-11] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 12:56:45.001 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 12:57:17.104 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 12:57:49.198 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 12:58:21.300 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 12:58:53.400 [lettuce-eventExecutorLoop-1-9] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 12:59:25.500 [lettuce-eventExecutorLoop-1-11] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 12:59:57.598 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:00:29.704 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:01:01.803 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:01:33.898 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:02:05.998 [lettuce-eventExecutorLoop-1-9] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:02:38.101 [lettuce-eventExecutorLoop-1-11] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:03:10.198 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:03:42.298 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:04:14.399 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:04:46.502 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:05:18.606 [lettuce-eventExecutorLoop-1-9] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:05:50.698 [lettuce-eventExecutorLoop-1-11] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:06:22.800 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:06:54.906 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:07:26.998 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:07:59.098 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:08:31.202 [lettuce-eventExecutorLoop-1-9] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:09:03.299 [lettuce-eventExecutorLoop-1-11] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:09:35.398 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:10:07.498 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:10:39.598 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:11:11.705 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:11:43.798 [lettuce-eventExecutorLoop-1-9] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:12:15.902 [lettuce-eventExecutorLoop-1-11] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:12:48.001 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:13:20.098 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:13:52.198 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:14:24.298 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:14:56.401 [lettuce-eventExecutorLoop-1-9] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:15:28.498 [lettuce-eventExecutorLoop-1-11] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:16:00.599 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:16:32.699 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:17:04.803 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:17:36.902 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:18:08.999 [lettuce-eventExecutorLoop-1-9] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:18:41.098 [lettuce-eventExecutorLoop-1-11] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:19:13.198 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:19:45.303 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:20:17.398 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:20:49.498 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:21:21.605 [lettuce-eventExecutorLoop-1-9] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:21:53.705 [lettuce-eventExecutorLoop-1-11] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:22:25.804 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:22:57.901 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:23:29.998 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:24:02.106 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:24:34.198 [lettuce-eventExecutorLoop-1-9] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:25:06.299 [lettuce-eventExecutorLoop-1-11] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:25:38.406 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:26:10.502 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:26:42.599 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:27:14.699 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:27:46.806 [lettuce-eventExecutorLoop-1-9] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:28:18.901 [lettuce-eventExecutorLoop-1-11] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:28:50.998 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:29:23.099 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:29:55.200 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:30:27.302 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:30:59.399 [lettuce-eventExecutorLoop-1-9] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:31:31.505 [lettuce-eventExecutorLoop-1-11] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:32:03.600 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:32:35.698 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:33:07.802 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:33:39.898 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:34:12.001 [lettuce-eventExecutorLoop-1-9] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:34:44.100 [lettuce-eventExecutorLoop-1-11] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:35:16.198 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
+2024-12-07 13:35:48.298 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1:6379
